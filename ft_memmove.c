@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 21:29:28 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/16 23:42:40 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/21 01:07:30 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,14 +41,14 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	return (d);
 }
 
-#include <stdio.h>
-int main()
-{
-	char	dst[25] = "Today is a new day";
-	char	src[25] = "a beautiful day.";
-	printf("Before: \n\tdest: %s\n", dst);
-	printf("\n\tsrc: %s\n", src);
-	ft_memmove(dst, src, 3);
-	printf("After: \n\tdest: %s\n", dst);
-	return (0);
-}
+// #include <stdio.h>
+// int main()
+// {
+// 	char	dst[25] = "Today is a new day";
+// 	char	src[25] = "a beautiful day.";
+// 	printf("Before: \n\tdest: %s\n", dst);
+// 	printf("\n\tsrc: %s\n", src);
+// 	ft_memmove(dst, src, 11);
+// 	printf("After: \n\tdest: %s\n", dst);
+// 	return (0);
+// }

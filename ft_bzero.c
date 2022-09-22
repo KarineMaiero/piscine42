@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/09 00:51:14 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/16 01:19:27 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/20 23:45:03 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,8 @@ void	ft_bzero(void *s, size_t n)
 // int main()
 // {
 // 	char str[50] = "Today is a beautiful day.";
+//	printf("Before: \n\t%s", str);
 // 	ft_bzero(str, 1);
-// 	printf("After: %s\n", str);
+// 	printf("\nAfter: \n\t%s\n", str);
 // 	return (0);
 // }

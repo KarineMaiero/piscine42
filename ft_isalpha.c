@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 20:29:47 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/13 23:53:35 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/20 22:17:50 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,6 @@ int	ft_isalpha(int c)
 // #include <stdio.h>
 // int main(void)
 // {
-// 	int	b = '-';
+// 	int	b = 'a';
 // 	printf("%i\n", ft_isalpha(b));
 // }

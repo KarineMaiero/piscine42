@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 20:40:14 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/17 00:13:32 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/22 22:33:20 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdio.h>
+
+# define INT_DIGITS_BUFFER_SIZE 21
 
 int	ft_toupper(int c);
 int	ft_tolower(int c);
@@ -50,7 +52,7 @@ void	ft_putendl_fd(char const *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-static char	*ft_strndup(const char *s, size_t n);
 char	*ft_itoa(int n);
+char	**ft_split(char const *s, char c);
 
 #endif

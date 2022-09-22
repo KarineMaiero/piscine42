@@ -31,13 +31,11 @@ char	*ft_strrchr(const char *s, int c)
 // size_t	ft_strlen(const char	*s)
 // {
 // 	size_t	i;
-
 // 	i = 0;
 // 	while (s[i] != '\0')
 // 		i++;
 // 	return (i);
 // }
-
 // #include <stdio.h>
 // int main ()
 // {

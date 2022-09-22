@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 21:23:06 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/15 18:22:09 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/20 23:35:31 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,10 @@ int	ft_strncmp(const char	*s1, const char	*s2, size_t n)
 // #include <stdio.h>
 // int main () 
 // {
-// 	char str1[15] = "abcdz";
-// 	char str2[15] = "abcdf";
+// 	char str1[15] = "abcdf";
+// 	char str2[15] = "abcdz";
 // 	int result;
-
-// 	result = ft_strncmp(str1, str2, 2);
+// 	result = ft_strncmp(str1, str2, 5);
 // 	if(result < 0) {
 // 	printf("str1 is less than str2\n");
 // 	} else if(result > 0) {

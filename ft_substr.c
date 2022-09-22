@@ -36,13 +36,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 // size_t	ft_strlen(const char	*s)
 // {
 // 	size_t	i;
-
 // 	i = 0;
 // 	while (s[i] != '\0')
 // 		i++;
 // 	return (i);
 // }
-
 // #include <stdio.h>
 // int main()
 // {

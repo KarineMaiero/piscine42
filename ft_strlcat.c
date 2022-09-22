@@ -35,13 +35,11 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 // size_t	ft_strlen(const char	*s)
 // {
 // 	size_t	i;
-
 // 	i = 0;
 // 	while (s[i] != '\0')
 // 		i++;
 // 	return (i);
 // }
-
 // #include <stdio.h>
 // int main () {
 // char s1[50] = "This is s1. ";

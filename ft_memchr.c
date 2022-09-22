@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 18:49:16 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/15 21:29:00 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/21 00:53:12 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,8 @@ void	*ft_memchr(const void *s, int c, size_t n)
 // 	const char	str[] = "Today is a beautiful day.";
 // 	const char ch = 'i';
 // 	char *result;
-
 // 	printf("Before: \n\t%s\n", str);
-// 	result = ft_memchr(str, ch, 11);
+// 	result = ft_memchr(str, ch, 7);
 // 	printf("After: \n\t%s\n", result);
 // 	return (0);
 // }

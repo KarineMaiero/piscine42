@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 21:07:50 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/15 19:35:27 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/20 22:12:20 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@ int	ft_tolower(int c)
 // #include <stdio.h>
 // int main(void)
 // {
-// 	int b = 'H';
+// 	int b = 'h';
 // 	printf("%i\n", ft_tolower(b));	
 // }

@@ -37,7 +37,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // printf("My inner function: index = %d and %c\n", i, str);
 // return str - 32;
 // }
-
 // int main()
 // {
 // 	char str[10] = "hello.";

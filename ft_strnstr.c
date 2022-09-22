@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 23:11:41 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/15 23:42:27 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/21 01:17:51 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,10 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 
 // #include <stdio.h>
 // int main () {
-//     const char str1[20] = "Todayisaday";
-//     const char str2[10] = "is";
+//     const char str1[20] = "Today is a day.";
+//     const char str2[10] = "i";
 //     char *result;
-//     result = ft_strnstr(str1, str2, 8);
+//     result = ft_strnstr(str1, str2, 9);
 //     printf("After: \n\tThe substring is: %s\n", result);
 //     return(0);
 // }

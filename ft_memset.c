@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 23:30:47 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/15 17:30:13 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/20 23:42:24 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,9 @@ void	*ft_memset(void *s, int c, size_t n)
 // #include <stdio.h>
 // int main()
 // {
-// 	char	str[100] = "Today is a beautiful day.";
-// 	ft_memset(str, '.', 5 * sizeof(char));
-// 	printf("After memset: %s\n", str);
+// 	char	str[30] = "Today is a beautiful day.";
+// 	printf("Before: \n\t%s", str);
+// 	ft_memset(str, '.', 5);
+// 	printf("\nAfter: \n\t%s\n", str);
 // 	return (0);
 // }

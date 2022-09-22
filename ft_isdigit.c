@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 20:59:35 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/13 22:58:46 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/20 22:16:21 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,9 @@ int	ft_isdigit(int c)
 }
 
 // #include <stdio.h>
-
 // int main()
 // {
-// 	int	b = 0;
+// 	int	b = '9';
 // 	printf("%i\n", ft_isdigit(b));
 // 	return (0);
 // }
