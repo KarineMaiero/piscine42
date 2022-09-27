@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 00:16:32 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/15 20:24:59 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/24 18:42:58 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s + i);
 	while (i >= 0)
 	{
-		if (s[i] == c)
+		if (s[i] == (char)c)
 			return ((char *)s + i);
 		i--;
 	}

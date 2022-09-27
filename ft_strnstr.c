@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 23:11:41 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/21 01:17:51 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/27 20:34:12 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,18 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 	size_t	i;
 	size_t	j;
 
+	if (s2[0] == '\0')
+		return ((char *)s1);
 	i = 0;
-	while (i < n && s1[i] != '\0')
+	while (s1[i] != '\0' && i < n)
 	{
 		j = 0;
-		while (i + j < n && s1[i + j] == s2[j] && s2[j] != '\0')
+		while ((s1[i + j] == s2[j]) && (i + j) < n)
+		{
+			if (s2[j + 1] == '\0')
+				return ((char *)(&s1[i]));
 			j++;
-		if (s2[j] == '\0')
-			return ((char *)s1 + i);
+		}
 		i++;
 	}
 	return (NULL);
