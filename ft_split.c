@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 23:39:41 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/22 22:33:13 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/28 23:37:30 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,10 +62,15 @@ char	**ft_split(char const *s, char c)
 // #include <stdio.h>
 // int main()
 // {
-// 	char str[20] = "This is string.";
-// 	char **result = ft_split(str, 'r');
-// 	printf("The result is %s\n", *result);
+// 	char str[30] = "ESSE É NOSSO NOVO TEXTO";
+// 	printf("The result is %s\n", str);
+// 	char **result = ft_split(str, 'N');
+// 	// printf("The result is %s\n", *result);
 // 	printf("The result is %s\n", result[0]);
 // 	printf("The result is %s\n", result[1]);
+// 	printf("The result is %s\n", result[2]);
+// 	printf("The result is %s\n", result[3]);
+// 	printf("The result is %s\n", result[4]);
+// 	printf("The result is %s\n", result[5]);
 // 	return 0;
 // }

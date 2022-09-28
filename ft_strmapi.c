@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 23:36:02 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/16 23:37:56 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/28 23:49:51 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,20 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	return (str);
 }
 
+// size_t	ft_strlen(const char *s)
+// {
+// 	size_t	i;
+
+// 	i = 0;
+// 	while (s[i] != '\0')
+// 		i++;
+// 	return (i);
+// }
+
 // char my_func(unsigned int i, char str)
 // {
-// printf("My inner function: index = %d and %c\n", i, str);
-// return str - 32;
+// 	printf("My inner function: index = %d and %c\n", i, str);
+// 	return str - 32;
 // }
 // int main()
 // {
@@ -43,5 +53,5 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // 	printf("The result is %s\n", str);
 // 	char *result = ft_strmapi(str, my_func);
 // 	printf("The result is %s\n", result);
-// retur	n 0;
+// 	return 0;
 // }

@@ -6,13 +6,13 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 20:31:55 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/20 23:27:54 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/27 22:42:49 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char	*s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 

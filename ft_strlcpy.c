@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 23:35:38 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/24 18:19:03 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/28 20:07:36 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,12 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t n)
 // #include <stdio.h>
 // int main()
 // {
-//   char src[] = "Today";
-//   char dest[] = "oi";
-//   printf("Before: \n\t%s\n", dest);
-//   char result = ft_strlcpy(dest, src, 3);
-//   printf("After: \n\t%c\n", result);
+//   char src[] = "Today is";
+//   char dest[] = "";
+//   printf("Before dest: \n\t%s\n", dest);
+//   printf("Before src: \n\t%s\n", src);
+//   int result = ft_strlcpy(dest, src, 15);
+//   printf("After dest: \n\t%s\n", dest);
+//   printf("After src: \n\t%s\n", src);
+//   printf("%d\n", result);
 // }

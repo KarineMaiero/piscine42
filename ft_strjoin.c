@@ -6,7 +6,7 @@
 /*   By: kmaiero <kmaiero@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 21:51:02 by kmaiero           #+#    #+#             */
-/*   Updated: 2022/09/16 22:20:57 by kmaiero          ###   ########.fr       */
+/*   Updated: 2022/09/28 19:40:52 by kmaiero          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,10 +49,10 @@ char	*ft_strjoin(char const *s1, char const *s2)
 // int main()
 // {
 // 	char	s1[15] = "String one.";
-// 	char	s2[15] = "Two two.";
+// 	char	s2[15] = "String two.";
 // 	char	*result = ft_strjoin(s1, s2);
 // 	printf("s1 doesn't change: %s\n", s1);
 // 	printf("s2 doesn't change: %s\n", s2);
-// 	printf("The results is %s\n", result);
+// 	printf("The results is: \n\t%s\n", result);
 // 	return (0);
 // }
